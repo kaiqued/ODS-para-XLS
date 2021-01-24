@@ -22,7 +22,7 @@ while i<=Arq-1:
     i = i+1
 
 Planilha_Final.reset_index();
-Planilha_Final.columns = ['Número MP', 'Tipo','Unidade','Assunto']
+Planilha_Final.columns = ['Número MP', 'Procedimento','Unidade','Assunto']
 Planilha_Final.to_excel(Planilha + ".xlsx");
 
 print("Planilha criada com sucesso!")
