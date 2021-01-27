@@ -24,8 +24,6 @@ for name in os.listdir(dirname):
     if os.path.isfile(path):
         if name.endswith('.ods'):
             arquivosOds.append(name)
-    else:
-        walk(path)
 
 print_nomes(arquivosOds)
 
